@@ -1,0 +1,35 @@
+.body-form {
+ width: 50%;
+ padding-bottom: 4rem;
+
+ h1 {
+  font-family: $font-jomhuria;
+  margin: 0 !important;
+  font-size: 76px;
+ }
+
+ .already-have {
+  margin-top: -20px;
+  font-size: 20px;
+  font-family: $font-inria;
+ }
+
+ .text-masuk {
+  color: #FFC633;
+  font-weight: 700;
+  text-decoration: none;
+ }
+
+ .form-picko {
+  .input-picko {
+   background-color: #F1F1F1;
+   border: 1px black solid;
+  }
+  .btn-register-picko{
+   background-color: #FFC633;
+   border: none;
+   width: 120px;
+  }
+ }
+
+}

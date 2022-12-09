@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Jomhuria&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+.NavbarRegister {
+  padding: 10px;
+  background-color: #FFC633;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  font-family: "Jomhuria", cursive;
+}
+.NavbarRegister h5 {
+  font-size: 60px;
+  color: #fff;
+  margin: 0;
+}
+
+.body-form {
+  width: 50%;
+  padding-bottom: 4rem;
+}
+.body-form h1 {
+  font-family: "Jomhuria", cursive;
+  margin: 0 !important;
+  font-size: 76px;
+}
+.body-form .already-have {
+  margin-top: -20px;
+  font-size: 20px;
+  font-family: "Inria Sans", sans-serif;
+}
+.body-form .text-masuk {
+  color: #FFC633;
+  font-weight: 700;
+  text-decoration: none;
+}
+.body-form .form-picko .input-picko {
+  background-color: #F1F1F1;
+  border: 1px black solid;
+}
+.body-form .form-picko .btn-register-picko {
+  background-color: #FFC633;
+  border: none;
+  width: 120px;
+}
+
+/*# sourceMappingURL=style.css.map */
