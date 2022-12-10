@@ -1,10 +1,14 @@
 import React from "react";
-import { NavbarRegister } from "./NavbarRegister";
+import { DataList } from "./DataList";
+import { Jumbotron } from "./Jumbotron";
+import { Navbar } from "./Navbar";
 
 export const Home = () => {
   return (
     <div>
-      <NavbarRegister />
+      <Navbar />
+      <Jumbotron />
+      <DataList />
     </div>
   );
 };
