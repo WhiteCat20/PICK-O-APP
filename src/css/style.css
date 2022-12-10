@@ -83,4 +83,21 @@
   width: 120px;
 }
 
+.hero {
+  margin-top: 92px;
+}
+
+.datalist-wrapper {
+  padding: 20px 20px;
+  gap: 20px;
+}
+
+.Card-Influencer {
+  width: 250px;
+  padding-bottom: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
 /*# sourceMappingURL=style.css.map */
