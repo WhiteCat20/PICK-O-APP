@@ -41,4 +41,46 @@
   width: 120px;
 }
 
+.LoginPage {
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+.LoginPage .login-card {
+  padding: 40px 50px;
+  background-color: #FFC633;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.LoginPage .login-card h1 {
+  margin: 0;
+  font-family: "Jomhuria", cursive;
+  font-size: 76px;
+  color: white;
+}
+.LoginPage .login-body {
+  margin-top: -30px;
+  font-family: "Inria Sans", sans-serif;
+}
+.LoginPage .login-body .input-picko {
+  background-color: #F1F1F1;
+  border: 1px black solid;
+  width: 300px;
+}
+.LoginPage .login-body .form-label {
+  font-size: 18px;
+}
+.LoginPage .login-body .no-account-text {
+  font-size: 14px;
+}
+.LoginPage .login-body .no-account-text a {
+  color: white;
+  font-weight: 600;
+}
+.LoginPage .login-body .login-button {
+  background-color: #F1F1F1;
+  border: 1px rgb(71, 68, 68) solid;
+  color: #000;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  width: 120px;
+}
+
 /*# sourceMappingURL=style.css.map */

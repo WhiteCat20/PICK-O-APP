@@ -9,7 +9,7 @@ export const Register = () => {
         <h1>Daftar Sekarang</h1>
         <p className="already-have">
           Sudah punya akun?{" "}
-          <a href="#" className="text-masuk">
+          <a href="/login" className="text-masuk">
             Masuk
           </a>
         </p>
@@ -94,7 +94,7 @@ export const Register = () => {
                 e.preventDefault();
                 alert("Data Berhasil Disimpan!");
               }}
-            >
+            > 
               Submit
             </button>
           </div>
