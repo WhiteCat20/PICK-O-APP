@@ -56,11 +56,7 @@ export const Register = () => {
             <label for="tanggal_lahir" class="form-label">
               Tanggal Lahir
             </label>
-            <select
-              type="date"
-              class="form-select input-picko"
-              id="tanggal_lahir"
-            >
+            <select class="form-select input-picko" id="tanggal_lahir">
               <option value="laki-laki">Laki-laki</option>
               <option value="perempuan">Perempuan</option>
             </select>
@@ -94,7 +90,7 @@ export const Register = () => {
                 e.preventDefault();
                 alert("Data Berhasil Disimpan!");
               }}
-            > 
+            >
               Submit
             </button>
           </div>
