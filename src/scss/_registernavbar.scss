@@ -4,9 +4,19 @@
  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
  font-family: $font-jomhuria;
 
- h5 {
+ .picko-header {
   font-size: 60px;
   color: #fff;
   margin: 0;
+ }
+
+ .login-register-pairs {
+  gap: 15px;
+
+  .login-header,
+  .register-header {
+   font-size: 40px;
+   color: #fff;
+  }
  }
 }

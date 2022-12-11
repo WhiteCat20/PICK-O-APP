@@ -5,7 +5,7 @@ export const NavbarRegister = () => {
     <nav className="NavbarRegister">
       <div className="container ">
         <a href="/" className="text-decoration-none text-white">
-          <h5>Pick'O</h5>
+          <h5 className="picko-header">Pick'O</h5>
         </a>
       </div>
     </nav>

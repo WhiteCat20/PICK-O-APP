@@ -2,6 +2,14 @@ import React from "react";
 import { NavbarRegister } from "./NavbarRegister";
 
 export const Register = () => {
+  const bidang = [
+    "Food & Beverage",
+    "Cosmetics",
+    "Electronics Gadgets",
+    "App & Platform",
+    "Education Platform",
+    "Events",
+  ];
   return (
     <div className="Register">
       <NavbarRegister />
@@ -65,7 +73,11 @@ export const Register = () => {
             <label for="bidang" class="form-label">
               Bidang
             </label>
-            <input type="text" class="form-control input-picko" id="bidang" />
+            <select id="bidang" className="form-select input-picko">
+              {bidang.map((item) => {
+                return <option value={item}>{item}</option>;
+              })}
+            </select>
           </div>
           <div class="mb-3">
             <label for="foto" class="form-label">
