@@ -76,7 +76,8 @@ const influencers = [
     follower: '2.4M',
     bidang: 'Food & Beverage',
     link_medsos: 'https://www.instagram.com/mgdalenaf/',
-    photo: 'https://upload.wikimedia.org/wikipedia/id/3/3d/LenaMagdalena.jpg',
+    photo:
+      'https://bobokosnack.com/wp-content/uploads/2020/12/Screenshot_3.png',
   },
   {
     id: 9,
